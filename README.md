@@ -17,13 +17,13 @@ Try out our interactive guides at [Cashfree Dev Studio](https://www.cashfree.com
 
 ### Installation
 ```bash
-go get github.com/cashfree/
+go get github.com/cashfree/cashfree-pg/v4
 ```
 ### Configuration
 
 ```go 
 import (
-    cashfree "github.com/cashfree/"
+    cashfree "github.com/cashfree/cashfree-pg/v4"
 )
 
 clientId := "<x-client-id>"
